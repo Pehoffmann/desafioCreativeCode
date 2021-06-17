@@ -8,11 +8,6 @@ pode logar, buscar apis e acessar elas internamente e ver suas estatisticas!
 </h4>
 
 ---
-## 📺 Demonstração
-
-![Github Searcher](frontend\src\assets/githubapi2.gif)
-
----
 
 ## 📚 Seções
 
