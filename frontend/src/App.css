@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+  font-family: 'Staatliches', cursive;
+}
+
+header {
+  padding: 30px;
+  background-color: #011627;
+  height: 90px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+header svg:nth-child(1) {
+  padding-left: 10px;
+  font-size: 60px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+header svg {
+  font-size: 40px;
+}
+header i {
+  padding-right: 5px;
+}
+
+.header___title {
+  margin-left: 740px;
+  color: #eaecef;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button a {
+  color: white;
+  font-size: 26px;
+}
+
+button a:hover {
+  color: rgb(0, 0, 0);
+  background: none;
+  font-size: 26px;
+}
+
+.dashboard___title {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.dashboard___subTitle {
+  font-size: 22px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.title___adm {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-left: 765px;
+  width: 350px;
+}
+.card img {
+  width: 350px;
+}
+
+.card___adm {
+  display: flex;
+  justify-content: center;
+}
+
+.sidenav {
+  width: 240px;
+  background: #011627;
+  position: absolute;
+  height: 95vh;
+  padding: 0 30px;
+  left: -100%;
+  transition: all 1s;
+}
+
+.sidenav.active {
+  left: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #eaecef;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a:hover,
+ul li.active {
+  background: #172b4d;
+}
+
+.titleAdminLogin {
+  text-align: center;
+  margin-top: 2vh;
+  border-bottom: 2px solid #ccc;
+}
+
+.signInAdmin {
+  margin-top: 20vh;
+  border-radius: 5px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.56);
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.56);
+  width: 500px;
+  height: 500px;
+  margin-left: 720px;
+}
+
+.bodyFormAdmin {
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 35px;
+}
+
+#inputPassword {
+  width: 320px;
+}
+
+#formLoginAdm {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnsAdmin {
+  margin-top: 65px;
+  width: 500px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(
+    right,
+    #172b4d,
+    #011627,
+    #172b4d,
+    #011627
+  );
+  transition: all 0.4s;
+}
