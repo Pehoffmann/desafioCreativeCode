@@ -23,7 +23,7 @@ O site é composto pelas seguintes seções:
 ## 📚 Como utilizar
 
 - **Git Clone no repositório**.
-- **Abrir desafioCreativeCode** no VSCode.
+- **Abrir desafioCreativeCode**.
 - Usar o comando **cd frontend**.
 - Na pasta frontend: **npm Install** para instalar todas as **dependências**.
 - Após conclusão, executar o seguinte comando: **npm start**.
