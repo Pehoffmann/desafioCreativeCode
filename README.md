@@ -22,12 +22,6 @@ O site é composto pelas seguintes seções:
 
 ## 📚 Como utilizar
 
-Requisitos:
-
-- **VSCode**
-
-Como utilizar:
-
 - **Git Clone no repositório**.
 - **Abrir desafioCreativeCode** no VSCode.
 - Usar o comando **cd frontend**.
